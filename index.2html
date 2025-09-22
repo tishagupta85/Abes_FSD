@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>REGISTRATION FORM</legend>
+   
+    <form action="Index.html">
+        Name:<input type="text"placeholder="username" required>
+        <br>
+        <br>
+        Password:<input type="password">
+        <br>
+        <br>
+        Age:<input type="number">
+        <br>
+        <br>
+        Dob:<input type="date">
+        <br>
+        <br>
+        collegecode:<input type="hidden"value  ="123">
+        <br>
+        <br>
+        <label>Gender:</label>
+        <br>
+        <input type="radio"name="Gender"value="Male">Male
+        <br>
+        <input type="radio"name="Gender"value="Female">Female
+        <br>
+        <input type="radio"name="Gender"value="other">other<br>
+        <label>select language</label>
+        <input type="checkbox"name="l1"value="hindi">hindi<br>
+        <input type="checkbox"name="l2"value="english">english<br>
+        
+        <label>address:</label>
+        <textarea>
+            rows="3" columns="30">
+        </textarea>
+        <br>
+        <br>
+        <label>course</label>
+        <select>
+        <option>
+            HTML
+        </option>
+        <option>
+            JS
+        </option>
+        <option>
+            CSS
+        </option>
+        </select>
+        <input type="Submit">
+        </form>
+        </fieldset>
+
+
+
+
+
+         
+    
+</body>
+</html>
